@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+.containerHeader {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -15,8 +15,8 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background-color: rgb(228, 254, 255);
-    padding-bottom: 28px;
+    background-color: #FF8243;
+    padding-bottom: 5px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     min-width: fit-content;
@@ -46,7 +46,7 @@ ul li {
 ul li a {
     font-size: 25px;
     text-decoration: none;
-    color: rgb(245, 245, 245);
+    color: white;
     font-weight: bolder;
     letter-spacing: 1px;
     display: inline-block;
@@ -81,7 +81,7 @@ li a:visited {
 .header-left p {
     font-size: 30px;
     margin-top: 60px;
-    color: navy;
+    color: yellow;
     font-weight: bold;
     margin-left: 22px;
 }

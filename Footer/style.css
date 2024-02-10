@@ -1,0 +1,29 @@
+.btn-link{
+    text-decoration: none;
+}
+.btn-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+.last{
+    text-align: center;
+    margin-left: 38%;
+}
+.d-flex a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    margin-left: 10%;
+    text-align: center;
+}
+.heading{
+    text-decoration: none;
+    color: white;
+}
+.mar-5{
+    margin-right: 3rem;
+    margin-left: 5rem;
+}
+.text-color{
+    color: #ff8243;
+}
