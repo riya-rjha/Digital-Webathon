@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFeedback {
+    padding: 1rem;
+    width: 22rem;
+    background-color: #521262;
+    border-radius: .5rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .3);
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.containerFeedback h1 {
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bolder;
+    font-display: none;
+}
+
+.containerFeedback p {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+    margin: 2rem 0;
+}
+
+.text {
+    margin-bottom: .5rem;
+    font-size: 1em;
+    color: #eee;
+    text-align: center;
+
+}
+
+.emoji {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.emoji>div:not( :first-child) {
+    margin-left: 1rem;
+}
+
+.emoji>div {
+    cursor: pointer;
+    transition: transform .2s ease-in;
+}
+
+.emoji>div:hover {
+    transform: scale(1.4);
+
+}
+
+.textarea {
+    width: 100%;
+    display: block;
+    background-color: rgb(59, 9, 59);
+    color: #eee;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 0;
+    opacity: 0;
+    transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.textarea--active {
+    padding: 1rem;
+    opacity: 1;
+    height: 6rem;
+}
+
+.btn {
+
+    text-decoration: none;
+    color: #eee;
+    padding: .4rem 1rem;
+    border-radius: 4px;
+    background-color: purple;
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    display: none;
+
+
+
+}
+
+.btn--active {
+    display: inline-block;
+}

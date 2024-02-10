@@ -1,29 +1,42 @@
-.btn-link{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-link {
     text-decoration: none;
 }
-.btn-link:hover{
+
+.btn-link:hover {
     text-decoration: underline;
     color: white;
 }
-.last{
+
+.last {
     text-align: center;
     margin-left: 38%;
 }
-.d-flex a{
+
+.d-flex a {
     text-decoration: none;
     color: white;
-    padding: 3px;
+    padding: 12px;
     margin-left: 10%;
     text-align: center;
+    width: 60px;
 }
-.heading{
+
+.heading {
     text-decoration: none;
     color: white;
 }
-.mar-5{
+
+.mar-5 {
     margin-right: 3rem;
     margin-left: 5rem;
 }
-.text-color{
+
+.text-color {
     color: #ff8243;
 }

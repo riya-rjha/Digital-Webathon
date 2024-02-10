@@ -1,0 +1,54 @@
+.section .content{
+    margin: 10% 40%;
+    height: 450px;
+    width: 380px;
+    border: 2px solid #333;
+    background-color: hsl(39, 77%, 83%, 30%);
+    border-radius: 25px;
+}
+.section .content h1{
+    text-align: center;
+    color: #ff8243;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 45px 0;
+}
+.content #email,
+.content #password{
+    width: 280px;
+    height: 30px;
+    padding: 3px 10px;
+    font-size: 17px;
+    margin: 5px;
+    margin-left: 3rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #ff8243;
+}        
+#Remember{
+    margin-left: 3rem;
+}
+.content input.sign{
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 35%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 19px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    background-color: #ff8243;
+    color: rgb(255, 255, 255);
+    
+}
+
+input[type="checkbox"]{
+    accent-color: black;
+    height: 17px;
+    width: 17px;
+    
+}
